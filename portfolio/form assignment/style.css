@@ -1,0 +1,38 @@
+body {
+    font-size: 1.2em;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: blueviolet;
+    font-size: 1.2rem;
+}
+
+input[type="text"i] {
+    margin-bottom: 8px;
+}
+
+form {
+    width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6rem;
+    background-color: grey;
+}
+
+textarea {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+input,
+textarea {
+    border: 2px solid maroon;
+}
+
+input:hover,
+textarea:hover {
+    box-shadow: 0 0 4px rgba(228, 51, 51, 0.5);
+    border: 2px solid skyblue;
+}
